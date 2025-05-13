@@ -1,9 +1,3 @@
-// const heading = React.createElement(
-//   "h1",
-//   { id: "heading" },
-//   "Hello world from React"
-// );
-
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child1" }, [
     React.createElement("h1", {}, "Hello lol"),
